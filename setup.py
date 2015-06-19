@@ -9,7 +9,7 @@ version = ''
 setup(
     name='schematec.contrib',
     packages=find_packages(),
-    # package_data={'': ['LICENSE']},
+    package_data={'': ['LICENSE']},
     version='0.1.0',
     namespace_packages=['schematec', 'schematec.contrib'],
     include_package_data = True,
