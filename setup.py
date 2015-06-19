@@ -4,6 +4,8 @@ try:
 except ImportError:
     from distutils.core import setup, find_packages
 
+version = ''
+
 with open('schematec/contrib/__init__.py', 'r') as fd:
     regex = re.compile(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]')
     for line in fd:
@@ -17,7 +19,6 @@ setup(
     packages=find_packages(),
     package_data={'': ['LICENSE']},
     version=version,
-    namespace_packages=['schematec', 'schematec.contrib'],
     description='Schematec contrib package',
     author='Andrey Gubarev',
     author_email='mylokin@me.com',
@@ -34,4 +35,5 @@ setup(
         'Topic :: Database',
         'Topic :: Database :: Database Engines/Servers',
     ),
+    namespace_packages=['schematec', 'schematec.contrib'],
 )
