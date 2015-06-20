@@ -25,5 +25,5 @@ setup(
         'Topic :: Database',
         'Topic :: Database :: Database Engines/Servers',
     ),
-    namespace_packages=['schematec', 'schematec.contrib'],
+    namespace_packages=['schematec'],
 )
