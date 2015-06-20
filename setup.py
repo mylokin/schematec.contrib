@@ -8,7 +8,7 @@ setup(
     name='schematec.contrib',
     packages=find_packages('schematec'),
     package_data={'': ['LICENSE']},
-    version='0.1.8',
+    version='0.1.9',
     description='Schematec contrib package',
     author='Andrey Gubarev',
     author_email='mylokin@me.com',
