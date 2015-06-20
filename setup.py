@@ -6,7 +6,7 @@ except ImportError:
 
 setup(
     name='schematec.contrib',
-    packages=find_packages('schematec'),
+    packages=['schematec.contrib'],
     package_data={'': ['LICENSE']},
     version='0.1.9',
     description='Schematec contrib package',
